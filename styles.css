@@ -1,0 +1,208 @@
+.card {
+  background-color: #f6dfeb;
+}
+
+.home {
+  position: relative;
+  left: 50px;
+}
+
+.btn {
+  padding: 1px 5px;
+  margin: 10px;
+  font-weight: bold;
+  color: #5eaaa8;
+}
+
+.description {
+  color: #5eaaa8;
+  margin: 10px;
+}
+.pro-image{
+  position: relative;
+  top: 40px;
+}
+.animation {
+  font-size: 30px;
+  color: #3a6351;
+  background-image: none;
+  font-weight: bold;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+}
+
+.fa-code, .fa-html5 {
+  font-size: 3rem;
+  color: #1f441e;
+}
+
+.facebook {
+  background-color: #4267B2;
+  color: white;
+}
+
+.twitter {
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.instagram {
+  background-color: #C13584;
+  color: white;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+  color: white;
+}
+
+.intro-para {
+  color: white;
+  width: 70%;
+  margin: auto;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.image {
+  width: 10%;
+  margin: 13px 20px 30px 25%;
+  float: left;
+}
+
+.skill-para {
+  width: 80%;
+  margin: 20px auto;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: white;
+  text-align: center;
+  line-height: 2;
+}
+
+.middle-container {
+  background-color: #5eaaa8;
+  text-align: center;
+  padding: 50px 100px;
+}
+
+.my-image {
+  width: 13%;
+  margin: 50px;
+}
+
+.my-intro {
+  color: #21209c;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  margin: 30px 10px;
+}
+
+.row {
+  margin: 30px;
+}
+
+.section-heading {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.subsection-heading {
+  color: #1f441e;
+}
+
+.talking {
+  width: 50%;
+  margin: auto auto 50px auto;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.cricket {
+  position: relative;
+  bottom: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 20px;
+  font-family: 'Sacramento', cursive;
+  font-size: 7rem;
+  color: #21209c;
+}
+
+h2, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #935d8c;
+}
+
+h4 {
+  color: #865858;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+img {
+  width: 20%;
+}
+
+footer {
+  padding: 10px;
+  background-color: #5eaaa8;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+i {
+  padding: 10px;
+}
+
+@media(max-width:1024px){
+  .pro-image{
+    position: relative;
+    top: 30px;
+  }
+  .my-intro{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .image{
+    width: 15%;
+    position: relative;
+    top: 10px;
+  }
+  .section-heading{
+    width: 50%;
+  }
+  .social{
+    font-size: 0.8rem;
+  }
+  .bottom-container{
+    margin: 40px 20px;
+  }
+}
+/* @media(max-width:768px){
+  .skill-para,p{
+    font-size: 2.5rem;
+  }
+  .movie{
+    position: relative;
+    top: 200px;
+  }
+} */
